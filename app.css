@@ -1,0 +1,75 @@
+@font-face{
+    font-family: "my-font";
+    src: url("font/static/Outfit-Regular.ttf")
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    color: hsl(220, 15%, 55%);
+    background-color: #D5E1EF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.card{
+    width: 320px;
+    height: 497px;
+    background-color: #ffffff;
+    font-family: "my-font";
+    border-radius: 5%
+}
+
+.code{
+    margin: 16px;
+}
+
+img{
+    border-radius: 5%;
+}
+
+.heading{
+    width: 228px;
+    height: 56px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 16px
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f314f;
+    text-align: center;
+    line-height: 25px;
+}
+
+.text{
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 40px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #7d889e;
+    text-align: center;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
